@@ -1,0 +1,8 @@
+prefix=/home/ros/blam_ws/src/blam/internal/install
+
+Name: point_cloud_localization
+Description: Description of point_cloud_localization
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpoint_cloud_localization
+Requires: roscpp geometry_utils parameter_utils tf2_ros pcl_ros

@@ -1,0 +1,8 @@
+prefix=/home/ros/blam_ws/src/blam/internal/devel
+
+Name: parameter_utils
+Description: Description of parameter_utils
+Version: 0.0.0
+Cflags: -I/home/ros/blam_ws/src/blam/internal/src/parameter_utils/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/blam_ws/src/blam/internal/install/setup.sh

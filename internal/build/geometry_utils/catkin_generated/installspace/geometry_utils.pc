@@ -1,0 +1,8 @@
+prefix=/home/ros/blam_ws/src/blam/internal/install
+
+Name: geometry_utils
+Description: Description of geometry_utils
+Version: 0.0.9
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: 

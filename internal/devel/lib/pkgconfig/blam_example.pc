@@ -1,0 +1,8 @@
+prefix=/home/ros/blam_ws/src/blam/internal/devel
+
+Name: blam_example
+Description: Description of blam_example
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

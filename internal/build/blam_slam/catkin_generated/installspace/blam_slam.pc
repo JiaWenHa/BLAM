@@ -1,0 +1,8 @@
+prefix=/home/ros/blam_ws/src/blam/internal/install
+
+Name: blam_slam
+Description: Description of blam_slam
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lblam_slam
+Requires: roscpp rosbag measurement_synchronizer point_cloud_filter point_cloud_odometry laser_loop_closure point_cloud_localization point_cloud_mapper geometry_utils parameter_utils pcl_ros pcl_conversions
